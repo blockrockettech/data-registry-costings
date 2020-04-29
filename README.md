@@ -2,7 +2,10 @@
 
 Baseline costings for writing raw data to chain. 
 
-All data is writen to a simple mapping data structure using a key:value. 
+All data is writen to a simple mapping data structure using a key value store where the key ios `bytes32` and the value is a variable type depending on the test. 
+
+See `./contracts/DataRegistry.sol` for the actual smart contract tested.
+See `./test/operational-costs.test.js` for the test script to which generates the below outcome.  
 
 ## Results (single write)
 
