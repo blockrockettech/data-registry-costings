@@ -1,0 +1,10 @@
+{
+  "name": "data-registry-costings",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.5",
+    "chai": "^4.2.0",
+    "lodash": "^4.17.15"
+  }
+}
